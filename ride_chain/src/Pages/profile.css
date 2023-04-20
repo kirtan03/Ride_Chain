@@ -1,0 +1,39 @@
+.mycontainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 97%;
+    height: 100%;
+    margin-left: 3%;
+}
+
+.mycard{
+    left: 30%;
+    width: 50%;
+    top: 17%;
+    height: 70%;
+    align-items: center;
+    position: relative;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgb(72, 11, 125);
+    flex-basis: calc(30% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: translate(50%, -10%);
+}
+
+.myimg{
+    margin-top: 60px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.info{
+    position: relative;
+    top: 10vh;
+    color : orange;
+}

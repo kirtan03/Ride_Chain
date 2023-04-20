@@ -1,0 +1,37 @@
+.sidebar_toggle{
+    background: rgb(5, 68, 104);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.pull-right {
+    width: 3%;
+}
+
+.sidebar_content{
+    display: none;
+    background: rgb(203, 195, 209);
+    position: fixed;
+    overflow-y: auto;
+    top: 0;
+    left: 0;
+    width: 270px;
+    height: 100%;
+    padding: 0px 0;
+    z-index: 1000;
+}
+
+.sidebar_bt{
+    width: 100%;
+    background-color: transparent;
+    color:#7f1f7f;
+    border-color: #7f1f7f;
+}
+
+.sidebar_bt:hover, .sidebar_bt:focus, .sidebar_bt:active, .sidebar_bt.active, .open {
+    background-color: #7f1f7f !important;
+    color:#FFF !important;
+    border-color: #7f1f7f !important;
+}

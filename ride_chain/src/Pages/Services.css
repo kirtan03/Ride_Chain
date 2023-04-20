@@ -1,0 +1,45 @@
+.section-bg {
+  background-image: url("blockchain.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .section-title {
+  color: white;
+  background-color:black;
+  }
+  
+  .section-subtitle {
+  color: white;
+  background-color:black;
+  }
+  .container {
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between; /* Space items evenly */
+  }
+  
+  .col-sm-6.col-md-4 {
+    flex-basis: calc(30% - 20px); /* Calculate the width of each item */
+    margin-bottom: 20px; /* Add some space between items */
+  }
+  
+  .my-box {
+    border-radius: 5px; /* creates curved edges */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* creates a shadow */
+    background-color: #ffe; /* sets background color */
+     flex-basis: calc(30% - 20px);
+     margin-bottom: 50px;
+     margin-left: 10px;
+     margin-right: 10px;
+    }
+  
+  .my-box2 {
+    border-radius: 5px; /* creates curved edges */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* creates a shadow */
+    background-color: #8a00c2; /* sets background color */
+     flex-basis: calc(30% - 20px);
+     margin-bottom: 50px;
+     margin-left: 10px;
+     margin-right: 10px;
+    }

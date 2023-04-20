@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --light: #ffffff;
+  --dark: #040d14;
+  --green: #21ce99;
+}
+
+.mainBody {
+  font-family: Poppins;
+  background: var(--light);
+  line-height: 26px;
+  margin: 0;
+  padding: 10vh;
+  background-color: rgba(0, 0, 0, 0.925);
+  color : white;
+}
+
+h1 {
+  color: orange;
+}
+
+
+.form-box {
+  width: 600px;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.App {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 75vh;
+  margin-top: 15vh;
+}
+
+.firstCol{
+  position: relative;
+  right : 15vw;
+}
+
+.secondCol{
+  background-color: rgb(19, 15, 90);
+  border : solid 1px white 
+}
+
+.form-box {
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.form-box form {
+  display: inline-block;
+  text-align: left;
+}
+
+.form-box input,
+.form-box textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.form-box input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.formInput:focus {
+  background-color: var(--light);
+  outline: none;
+  box-shadow: 0 0 0 2px var(--green);
+  color: var(--light);
+}
+
+.formInput::placeholder {
+  color: var(--green);
+  opacity: 1;
+}
+
+.formInput:focus::placeholder {
+  color: var(--light);
+  opacity: 1;
+}
+
+.errorMessage {
+  color: #f45532;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+#notifyToast {
+  color: #fff;
+  border-radius: 6px;
+  width: 200px;
+  margin-left: 75px;
+  background-color: var(--green);
+}
+
+.submit-btn {
+  background-color: var(--light);
+  color: var(--green) !important;
+  padding: 15px 50px;
+  border: 2px solid var(--green);
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.submit-btn:hover {
+  background-color: var(--green);
+  color: var(--dark) !important;
+  border: 2px solid var(--green);
+}
+
+.submit-btn:disabled:hover {
+  background-color: var(--light);
+  color: var(--green) !important;
+  cursor: wait;
+}
+
+@media (max-width: 768px) {
+  .submit-message {
+    width: 125px;
+    margin-left: 200px;
+  }
+}
+
+.mycard2{
+    width: 50%;
+    padding-bottom: 10px;
+}

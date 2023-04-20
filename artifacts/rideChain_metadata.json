@@ -1,0 +1,150 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "riderRequestHash",
+						"type": "uint256"
+					}
+				],
+				"name": "gatRiderRequestHash",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "driverOfferHash",
+						"type": "uint256"
+					}
+				],
+				"name": "getDriverOfferHash",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "rootDriverHash",
+						"type": "uint256"
+					}
+				],
+				"name": "getRootDriverHash",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "rootRiderHash",
+						"type": "uint256"
+					}
+				],
+				"name": "getRootRiderHash",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_driverOfferHash",
+						"type": "uint256"
+					}
+				],
+				"name": "setDriverOfferHash",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_riderRequestHash",
+						"type": "uint256"
+					}
+				],
+				"name": "setRiderRequestHash",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_rootDriverHash",
+						"type": "uint256"
+					}
+				],
+				"name": "setRootDriverHash",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_rootRiderHash",
+						"type": "uint256"
+					}
+				],
+				"name": "setRootRiderHash",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts\\ride_chain.sol": "rideChain"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts\\ride_chain.sol": {
+			"keccak256": "0xc3422eb2d6651f03d07d68a93891107a4f1aa47ceda43d0402d54e71db5e2238",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4a29671c52e5c6bbdb35ff30f401171db7b3a4fd2f5dd4996be0ed0cb3b8dd1f",
+				"dweb:/ipfs/QmQ15oKfNCHsj4166JuBMBxvoGarzJswxU8g73BWUvfkwt"
+			]
+		}
+	},
+	"version": 1
+}
