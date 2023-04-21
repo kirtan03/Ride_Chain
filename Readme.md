@@ -68,17 +68,11 @@ The requisite dependencies to run the backend is listed in package.json file tha
 For installing requisites for Django Websocket backend, type command `pip install -r requirements.txt` in respective folder.
 For running the frontend, type command `npm start` in the frontend folder and for backend, type `python manage.py runserver` in backend folder.
 
-To use this application follow these steps:
-
 ### Matching Algorithm
 
 * The user can add a source and a destination point, which can be selected both by clicking on the map as well as selecting from the drop down menu. The map displays the shortest path using the distance formula in the backend.
 
-#### Extra features
-* The user can also add multiple intermediate stoppages between the source and destination, and customize the course of shortest path.
-
 ### Use of IPFS for decentralized storage
-* Two or more users can select their respective locations in the map, and the map shows the optimum meeting point for the users, such that the total time for all to reach that point is minimized.
 
 ---
 <!-- Contributors -->
