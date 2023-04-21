@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-# CSN-291 Course Project : IITR Map 
+# CSN-254 Course Project : RideChain
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -72,7 +72,7 @@ To use this application follow these steps:
 
 ### Matching Algorithm
 
-* The user can add a source and a destination point, which can be selected both by clicking on the map as well as selecting from the drop down menu. The map displays the shortest path using the Dijkstra's algorithm in the backend.
+* The user can add a source and a destination point, which can be selected both by clicking on the map as well as selecting from the drop down menu. The map displays the shortest path using the distance formula in the backend.
 
 #### Extra features
 * The user can also add multiple intermediate stoppages between the source and destination, and customize the course of shortest path.
